@@ -1,0 +1,180 @@
+$mau_den:#292D32;
+$mau_xam_nhat: #E1E1E1;
+$font1:'Inter', sans-serif;
+$lspc :0.025em;
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+}
+.sidebar{
+    position: fixed;
+    width: 236px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 5px 0px 20px rgba(105, 69, 69, 0.1);
+}
+.blackhead{
+    position: relative;
+    background-color: $mau_den;
+    display: flex;
+    color: white;
+    width: 236px;
+    height: 86px;
+    justify-content: left;
+    align-items: center;
+        ion-icon{
+            font-size: 24px;
+            left: 36px;
+            transform: translateX(36px);
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: $font1 ;
+            letter-spacing: 0.025em;
+            font-size: 15.18px;
+            transform: translateX(45px);
+        }
+    }
+.ctn_btn{
+    position: relative;
+    top: 41px;
+    img{
+        position: relative;
+        left: 2.4rem;
+        vertical-align: middle;
+    }
+    button{
+        position: relative;
+        font-family: $font1;
+        font-size: 1.4rem;
+        letter-spacing: $lspc;
+        text-align: left;
+        width: 100%;
+        height: 40px;
+        border: None;
+        background: none;
+        span{
+            position: relative;
+            display: inline-block;
+            left: 45px;
+            transform: translateY(10%);
+        }
+    }
+    button:hover{
+        background-color: $mau_xam_nhat;
+        span, img{
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+    }
+}
+.menu_head{
+    position: relative;
+    left: 26px;
+    top: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #ACACAC;
+}
+#libra{
+    position: absolute;
+    top: 32.5rem;
+}
+#libra-menu{
+    position: absolute;
+    top: 35rem;
+}
+.following{
+    position: absolute;
+    top: 53.2rem;
+    left: 2.6rem;
+    .fl-ctn{
+        position: absolute;
+        display: flexbox;
+        top: 1.6rem;
+        
+        .box{
+            width: 13.7rem;
+            height: 2.4rem;
+            align-items: center;
+            margin-top: 1.6rem;
+            justify-content: center;
+            span{
+                margin-left: 2.3rem;
+                transform: translateY(25%);
+            }
+        }
+    }
+    img{
+        width: 2.4rem;
+        height: 2.4rem;
+        border-radius: 50%;
+    }
+    span{
+        position: absolute;
+        font-family: $font1;
+        font-size: 1.4rem;
+        letter-spacing: $lspc;
+        
+    }
+    #flh{
+        color: #ACACAC;
+        font-size: 1.2rem;
+    }
+}
+.get_premium{
+    position: absolute;
+    width: 18.9rem;
+    height: 15.7rem;
+    top: 83.5rem;
+    left: 2.4rem;
+    border-radius: 1rem;
+    background-color: $mau_den;
+    span{
+        position: relative;
+        color: white;
+        font-family: $font1;
+        display: block;
+        top: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 18rem;
+        text-align: center;
+    }
+    #get1{
+        font-weight: 500;
+        font-size: 1.35rem;
+        line-height: 1.7rem;
+        width: 16.7rem;
+        height:3rem;
+        text-transform: capitalize;
+    }
+    #get2{
+        top: 3rem;
+        width: 15.8rem;
+        font-size: 1.1rem;
+        font-weight: 200;
+        letter-spacing: $lspc;
+    }
+    button{
+        position: absolute;
+        top:9.6rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 16.1rem;
+        height: 4.1rem;
+        border-radius: 0.8rem;
+        font-family: $font1;
+        font-weight: 600;
+        letter-spacing: $lspc;
+    }
+}
+    

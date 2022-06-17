@@ -1,0 +1,156 @@
+$mau_den:#292D32;
+$mau_xam_nhat: #E1E1E1;
+$font1:'Inter', sans-serif;
+$lspc :0.025em;
+.nav{
+    position: sticky;
+    display: block;
+    width: auto;
+    height: 8.6rem;
+    margin-left: 23.6rem;
+    .searchbox{
+        input{
+            position: absolute;
+            width: 44.8rem;
+            height: 3.9rem;
+            padding-left: 2rem;
+            border-radius: 1rem;
+            border:solid #ECECEC;
+            border-width: 0.1rem;
+            top: 2.6rem;
+            left: 2.1rem;
+            font-family: $font1;
+            font-weight: 100;
+            font-size: 1.3rem;
+            letter-spacing: 0.1rem;
+        }
+        img{
+            position: absolute;
+            top: 3.7rem;
+            left: 43.3rem;
+        }
+        
+    }
+}
+.addvideo{
+    position: absolute;
+    left: 77rem;
+    button{
+        position: inherit;
+        top:2.7rem;
+        padding-left: 4rem;
+        width: 14rem;
+        height: 4rem;
+        border-radius: 0.8rem;
+        border: none;
+        background-color: #292D32;
+        font-family: $font1;
+        letter-spacing: $lspc;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #ECECEC;
+        cursor: pointer;
+        transition: all ease 0.2s;
+    }
+    button:hover{
+        background-color:#292d32c4;
+
+        box-shadow: 5px 0px 20px rgba(105, 69, 69, 0.1);
+        text-shadow: 5px 0px 20px rgba(105, 69, 69, 0.1);
+    }
+    img{
+        position: absolute;
+        top:3.5rem;
+        left: 1.6rem;
+    }
+}
+.noti_btn{
+    position: absolute;
+    left: 94.7rem;
+    top: 50%;
+    transform: translateY(-50%);
+    button{
+        width: 3.9rem;
+        height: 3.9rem;
+        border: none;
+        border-radius: 0.8rem;
+        background-color:#E5E4FE;
+        cursor: pointer;
+        transition: all ease 0.2s;
+        img{
+            transform: translateY(5%);
+        }
+    }
+    button:hover{
+        background-color: #c8c7da;
+    }
+    #noti_num{
+        position: absolute;
+        left: 2.7rem;
+        bottom: 2.9rem;
+
+    }
+}
+.account{
+    position: absolute;
+    width: 15.8rem;
+    height: 4rem;
+    left: 102rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    img{
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    button{
+        position: absolute;
+        left: 5.2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: $font1;
+        letter-spacing: $lspc;
+        width: max-content;
+        background: none;
+        border: none;
+    }
+    .drop-content{
+        position: absolute;
+        display: none;
+        top: 4.5rem;
+        right: 0;
+        width: 25rem;
+        z-index: 1;
+        a{
+            display: block;
+            padding: 2rem;
+            text-decoration: none;
+            color: #292D32;
+            background-color: rgb(243, 243, 243);
+            font-family: $font1;
+            letter-spacing: $lspc;
+            font-size: 1.4rem;
+            text-align: left;
+            ion-icon{
+                transform: translateY(20%);
+                font-size: 2.3rem;
+                padding-right: 2.5rem;
+            }
+        }
+    }
+    
+    .drop-content a:hover{
+        background-color: #e9e8e8;
+    }
+}
+
+.account:hover {
+    .drop-content {
+        display: block;
+    }
+}
+

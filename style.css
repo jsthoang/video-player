@@ -1,0 +1,349 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+}
+
+.sidebar {
+  position: fixed;
+  width: 236px;
+  height: 100%;
+  background: #FFFFFF;
+  box-shadow: 5px 0px 20px rgba(105, 69, 69, 0.1);
+}
+
+.blackhead {
+  position: relative;
+  background-color: #292D32;
+  display: flex;
+  color: white;
+  width: 236px;
+  height: 86px;
+  justify-content: left;
+  align-items: center;
+}
+.blackhead ion-icon {
+  font-size: 24px;
+  left: 36px;
+  transform: translateX(36px);
+}
+.blackhead a {
+  text-decoration: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.025em;
+  font-size: 15.18px;
+  transform: translateX(45px);
+}
+
+.ctn_btn {
+  position: relative;
+  top: 41px;
+}
+.ctn_btn img {
+  position: relative;
+  left: 2.4rem;
+  vertical-align: middle;
+}
+.ctn_btn button {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.025em;
+  text-align: left;
+  width: 100%;
+  height: 40px;
+  border: None;
+  background: none;
+}
+.ctn_btn button span {
+  position: relative;
+  display: inline-block;
+  left: 45px;
+  transform: translateY(10%);
+}
+.ctn_btn button:hover {
+  background-color: #E1E1E1;
+}
+.ctn_btn button:hover span, .ctn_btn button:hover img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.menu_head {
+  position: relative;
+  left: 26px;
+  top: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #ACACAC;
+}
+
+#libra {
+  position: absolute;
+  top: 32.5rem;
+}
+
+#libra-menu {
+  position: absolute;
+  top: 35rem;
+}
+
+.following {
+  position: absolute;
+  top: 53.2rem;
+  left: 2.6rem;
+}
+.following .fl-ctn {
+  position: absolute;
+  display: flexbox;
+  top: 1.6rem;
+}
+.following .fl-ctn .box {
+  width: 13.7rem;
+  height: 2.4rem;
+  align-items: center;
+  margin-top: 1.6rem;
+  justify-content: center;
+}
+.following .fl-ctn .box span {
+  margin-left: 2.3rem;
+  transform: translateY(25%);
+}
+.following img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+}
+.following span {
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.025em;
+}
+.following #flh {
+  color: #ACACAC;
+  font-size: 1.2rem;
+}
+
+.get_premium {
+  position: absolute;
+  width: 18.9rem;
+  height: 15.7rem;
+  top: 83.5rem;
+  left: 2.4rem;
+  border-radius: 1rem;
+  background-color: #292D32;
+}
+.get_premium span {
+  position: relative;
+  color: white;
+  font-family: "Inter", sans-serif;
+  display: block;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 18rem;
+  text-align: center;
+}
+.get_premium #get1 {
+  font-weight: 500;
+  font-size: 1.35rem;
+  line-height: 1.7rem;
+  width: 16.7rem;
+  height: 3rem;
+  text-transform: capitalize;
+}
+.get_premium #get2 {
+  top: 3rem;
+  width: 15.8rem;
+  font-size: 1.1rem;
+  font-weight: 200;
+  letter-spacing: 0.025em;
+}
+.get_premium button {
+  position: absolute;
+  top: 9.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16.1rem;
+  height: 4.1rem;
+  border-radius: 0.8rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.nav {
+  position: sticky;
+  display: block;
+  width: auto;
+  height: 8.6rem;
+  margin-left: 23.6rem;
+}
+.nav .searchbox input {
+  position: absolute;
+  width: 44.8rem;
+  height: 3.9rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  border: solid #ECECEC;
+  border-width: 0.1rem;
+  top: 2.6rem;
+  left: 2.1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+}
+.nav .searchbox img {
+  position: absolute;
+  top: 3.7rem;
+  left: 43.3rem;
+}
+
+.addvideo {
+  position: absolute;
+  left: 77rem;
+}
+.addvideo button {
+  position: inherit;
+  top: 2.7rem;
+  padding-left: 4rem;
+  width: 14rem;
+  height: 4rem;
+  border-radius: 0.8rem;
+  border: none;
+  background-color: #292D32;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.025em;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ECECEC;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+.addvideo button:hover {
+  background-color: rgba(41, 45, 50, 0.768627451);
+  box-shadow: 5px 0px 20px rgba(105, 69, 69, 0.1);
+  text-shadow: 5px 0px 20px rgba(105, 69, 69, 0.1);
+}
+.addvideo img {
+  position: absolute;
+  top: 3.5rem;
+  left: 1.6rem;
+}
+
+.noti_btn {
+  position: absolute;
+  left: 94.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.noti_btn button {
+  width: 3.9rem;
+  height: 3.9rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #E5E4FE;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+.noti_btn button img {
+  transform: translateY(5%);
+}
+.noti_btn button:hover {
+  background-color: #c8c7da;
+}
+.noti_btn #noti_num {
+  position: absolute;
+  left: 2.7rem;
+  bottom: 2.9rem;
+}
+
+.account {
+  position: absolute;
+  width: 15.8rem;
+  height: 4rem;
+  left: 102rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.account img {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.account button {
+  position: absolute;
+  left: 5.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.025em;
+  width: max-content;
+  background: none;
+  border: none;
+}
+.account .drop-content {
+  position: absolute;
+  display: none;
+  top: 4.5rem;
+  right: 0;
+  width: 25rem;
+  z-index: 1;
+}
+.account .drop-content a {
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+  color: #292D32;
+  background-color: rgb(243, 243, 243);
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.025em;
+  font-size: 1.4rem;
+  text-align: left;
+}
+.account .drop-content a ion-icon {
+  transform: translateY(20%);
+  font-size: 2.3rem;
+  padding-right: 2.5rem;
+}
+.account .drop-content a:hover {
+  background-color: #e9e8e8;
+}
+
+.account:hover .drop-content {
+  display: block;
+}
+
+.main {
+  position: absolute;
+  display: block;
+  width: auto;
+  margin-left: 23.6rem;
+}
+
+.grid-1 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.7rem;
+}
+.grid-1 img {
+  height: 25.6rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+$mau_den:#292D32;
+$mau_xam_nhat: #E1E1E1;
+$font1:'Inter', sans-serif;
+$lspc :0.025em;
+
+
+.main{
+    position: absolute;
+    display: block;
+    width: auto;
+    margin-left: 23.6rem;
+}
+//--------grid-1---------//
+.grid-1{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.7rem;
+    img{
+        height: 25.6rem;
+    }
+
+
+}
