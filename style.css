@@ -138,7 +138,7 @@ body {
   position: absolute;
   width: 18.9rem;
   height: 15.7rem;
-  top: 83.5rem;
+  top: 77rem;
   left: 2.4rem;
   border-radius: 1rem;
   background-color: #292D32;
@@ -184,6 +184,7 @@ body {
 
 .nav {
   position: sticky;
+  z-index: 2;
   display: block;
   width: auto;
   height: 8.6rem;
@@ -303,7 +304,6 @@ body {
   top: 4.5rem;
   right: 0;
   width: 25rem;
-  z-index: 1;
 }
 .account .drop-content a {
   display: block;
@@ -332,7 +332,7 @@ body {
 .main {
   position: absolute;
   display: block;
-  width: auto;
+  width: 100%;
   margin-left: 23.6rem;
 }
 
@@ -340,11 +340,16 @@ body {
   position: relative;
   display: grid;
   left: 2.5rem;
+  width: auto;
   grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5rem;
 }
 .grid-1 img {
+  position: relative;
   height: 25.6rem;
+  max-width: 34.1rem;
   border-radius: 1.2rem;
+  cursor: pointer;
 }
 .grid-1 .tittle {
   display: block;
@@ -355,6 +360,7 @@ body {
   font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: 0.025em;
+  cursor: pointer;
 }
 .grid-1 .view {
   margin-right: 2rem;
