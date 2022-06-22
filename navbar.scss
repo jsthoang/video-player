@@ -4,6 +4,7 @@ $font1:'Inter', sans-serif;
 $lspc :0.025em;
 .nav{
     position: sticky;
+    z-index: 2;
     display: block;
     width: auto;
     height: 8.6rem;
@@ -124,7 +125,6 @@ $lspc :0.025em;
         top: 4.5rem;
         right: 0;
         width: 25rem;
-        z-index: 1;
         a{
             display: block;
             padding: 2rem;
@@ -150,7 +150,8 @@ $lspc :0.025em;
 
 .account:hover {
     .drop-content {
-        display: block;
+       display: block;
     }
 }
+
 
