@@ -35,7 +35,8 @@ $lspc :0.025em;
 }
 .addvideo{
     position: absolute;
-    left: 77rem;
+    //left: 77rem;
+    right: 42.6rem;
     button{
         position: inherit;
         top:2.7rem;
@@ -67,9 +68,11 @@ $lspc :0.025em;
 }
 .noti_btn{
     position: absolute;
-    left: 94.7rem;
+    //left: 94.7rem;
+    right: 21rem;
     top: 50%;
     transform: translateY(-50%);
+    cursor: pointer;
     button{
         width: 3.9rem;
         height: 3.9rem;
@@ -79,6 +82,7 @@ $lspc :0.025em;
         cursor: pointer;
         transition: all ease 0.2s;
         img{
+            width: 2.4rem;
             transform: translateY(5%);
         }
     }
@@ -86,6 +90,7 @@ $lspc :0.025em;
         background-color: #c8c7da;
     }
     #noti_num{
+        width: 2rem;
         position: absolute;
         left: 2.7rem;
         bottom: 2.9rem;
@@ -96,7 +101,8 @@ $lspc :0.025em;
     position: absolute;
     width: 15.8rem;
     height: 4rem;
-    left: 102rem;
+    //left: 102rem;
+    right: 2.75rem;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
@@ -113,6 +119,7 @@ $lspc :0.025em;
         left: 5.2rem;
         top: 50%;
         transform: translateY(-50%);
+        font-size: 1.4rem;
         font-family: $font1;
         letter-spacing: $lspc;
         width: max-content;
@@ -125,6 +132,7 @@ $lspc :0.025em;
         top: 4.5rem;
         right: 0;
         width: 25rem;
+        cursor: pointer;
         a{
             display: block;
             padding: 2rem;

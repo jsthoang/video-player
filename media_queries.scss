@@ -1,0 +1,105 @@
+@media screen and (min-width: 2560px){
+    html{
+        font-size: 100%;
+    }
+    .sidebar{
+        display: block;
+    }
+    .alter-icon{
+        display: none;
+    }
+    .grid-1{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width: 1920px){
+    .alter-icon{
+        display: none;
+    }
+}
+@media screen and (max-width: 1920px){
+    html{
+        font-size: 65%;
+    }  
+    .grid-1{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .alter-icon{
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px){
+    html{
+        font-size: 70%;
+    }
+    .nav,.main{
+        transform: translateX(-7.2rem);
+    }
+    .sidebar, .blackhead{
+        display: block;
+        button,a,span,.get_premium{
+            display: none;
+        }
+        img{
+            display: block;
+        }
+        width: 7.2rem;
+    }
+    .grid-1{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 76.8rem) {
+    html{
+        font-size: 55%;
+    }
+    .sidebar{
+        display: block;
+    }
+    .alter-icon{
+        display: block;
+    }
+    .grid-1{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media screen and (max-width:40rem) {
+    html{
+        font-size: 40%;
+    }
+    .sidebar{
+        display: block;
+    }
+    .alter-icon{
+        display: block;
+    }
+    .grid-1{
+        grid-template-columns: 1fr;
+    }
+    .addvideo{
+        display: none;
+    }
+    .noti_btn{
+        display:none;
+    }
+    .account{
+        right:1rem;
+    }
+    .nav{
+        .searchbox{
+            input{
+                transform: translateX(-5rem);
+                width: 20rem;
+            }
+            img{
+                display: none;
+            }
+        }
+    }
+}
+
+
