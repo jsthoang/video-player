@@ -5,19 +5,30 @@ $lspc :0.025em;
 
 
 .main{
-    position: absolute;
+    position: relative;
     display: block;
-    width: 100%;
+    width: auto;
     margin-left: 23.6rem;
+    p{
+        position: absolute;
+        left: 2.5rem;
+        font-family: $font1;
+        font-size: 2rem;
+        font-style: bold;
+        letter-spacing: $lspc;
+
+    }
 }
 //--------grid-1---------//
 .grid-1{
     position: relative;
     display: grid;
-    left:2.5rem;
+    margin-left:2.5rem;
+    top: 6.2rem;
     width: auto;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 5rem;
+    justify-items: center;
     img{
         position: relative;
         height: 25.6rem;

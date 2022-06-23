@@ -13,10 +13,10 @@ body {
 
 .sidebar {
   position: fixed;
-  width: 236px;
+  width: 23.6rem;
   height: 100%;
   background: #FFFFFF;
-  box-shadow: 5px 0px 20px rgba(105, 69, 69, 0.1);
+  box-shadow: 0.5rem 0px 2rem rgba(105, 69, 69, 0.1);
 }
 
 .blackhead {
@@ -24,14 +24,14 @@ body {
   background-color: #292D32;
   display: flex;
   color: white;
-  width: 236px;
-  height: 86px;
+  width: 23.6rem;
+  height: 8.6rem;
   justify-content: left;
   align-items: center;
 }
 .blackhead ion-icon {
-  font-size: 24px;
-  left: 36px;
+  font-size: 2.4rem;
+  left: 3.6rem;
   transform: translateX(36px);
 }
 .blackhead a {
@@ -39,13 +39,13 @@ body {
   color: white;
   font-family: "Inter", sans-serif;
   letter-spacing: 0.025em;
-  font-size: 15.18px;
+  font-size: 1.518rem;
   transform: translateX(45px);
 }
 
 .ctn_btn {
   position: relative;
-  top: 41px;
+  top: 4.1rem;
 }
 .ctn_btn img {
   position: relative;
@@ -56,30 +56,30 @@ body {
   position: relative;
   font-family: "Inter", sans-serif;
   font-size: 1.4rem;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.025rem;
   text-align: left;
   width: 100%;
-  height: 40px;
+  height: 4rem;
   border: None;
   background: none;
 }
 .ctn_btn button span {
   position: relative;
   display: inline-block;
-  left: 45px;
+  left: 4.5rem;
   transform: translateY(10%);
 }
 .ctn_btn button:hover {
   background-color: #E1E1E1;
 }
 .ctn_btn button:hover span, .ctn_btn button:hover img {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
 }
 
 .menu_head {
   position: relative;
-  left: 26px;
-  top: 32px;
+  left: 2.6rem;
+  top: 3.2rem;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -127,7 +127,7 @@ body {
   position: absolute;
   font-family: "Inter", sans-serif;
   font-size: 1.4rem;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.025rem;
 }
 .following #flh {
   color: #ACACAC;
@@ -167,7 +167,7 @@ body {
   width: 15.8rem;
   font-size: 1.1rem;
   font-weight: 200;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.025rem;
 }
 .get_premium button {
   position: absolute;
@@ -179,7 +179,36 @@ body {
   border-radius: 0.8rem;
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.025rem;
+}
+
+.alter-icon {
+  position: fixed;
+  top: 15rem;
+}
+.alter-icon img {
+  position: relative;
+  width: 3rem;
+  vertical-align: middle;
+}
+.alter-icon button {
+  position: relative;
+  left: 1.4rem;
+  display: block;
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  height: 4rem;
+  border: None;
+  border-radius: 50%;
+  background: none;
+}
+.alter-icon button:hover {
+  background-color: #E1E1E1;
+}
+.alter-icon button:hover span, .alter-icon button:hover img {
+  filter: drop-shadow(0px 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
 }
 
 .nav {
@@ -213,7 +242,7 @@ body {
 
 .addvideo {
   position: absolute;
-  left: 77rem;
+  right: 42.6rem;
 }
 .addvideo button {
   position: inherit;
@@ -245,9 +274,10 @@ body {
 
 .noti_btn {
   position: absolute;
-  left: 94.7rem;
+  right: 21rem;
   top: 50%;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 .noti_btn button {
   width: 3.9rem;
@@ -259,12 +289,14 @@ body {
   transition: all ease 0.2s;
 }
 .noti_btn button img {
+  width: 2.4rem;
   transform: translateY(5%);
 }
 .noti_btn button:hover {
   background-color: #c8c7da;
 }
 .noti_btn #noti_num {
+  width: 2rem;
   position: absolute;
   left: 2.7rem;
   bottom: 2.9rem;
@@ -274,7 +306,7 @@ body {
   position: absolute;
   width: 15.8rem;
   height: 4rem;
-  left: 102rem;
+  right: 2.75rem;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -292,6 +324,7 @@ body {
   left: 5.2rem;
   top: 50%;
   transform: translateY(-50%);
+  font-size: 1.4rem;
   font-family: "Inter", sans-serif;
   letter-spacing: 0.025em;
   width: max-content;
@@ -304,6 +337,7 @@ body {
   top: 4.5rem;
   right: 0;
   width: 25rem;
+  cursor: pointer;
 }
 .account .drop-content a {
   display: block;
@@ -330,19 +364,29 @@ body {
 }
 
 .main {
-  position: absolute;
+  position: relative;
   display: block;
-  width: 100%;
+  width: auto;
   margin-left: 23.6rem;
+}
+.main p {
+  position: absolute;
+  left: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-style: bold;
+  letter-spacing: 0.025em;
 }
 
 .grid-1 {
   position: relative;
   display: grid;
-  left: 2.5rem;
+  margin-left: 2.5rem;
+  top: 6.2rem;
   width: auto;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 5rem;
+  justify-items: center;
 }
 .grid-1 img {
   position: relative;
@@ -395,6 +439,121 @@ body {
   border: none;
   transform: translateY(-30%);
   cursor: pointer;
+}
+
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 100%;
+  }
+
+  .sidebar {
+    display: block;
+  }
+
+  .alter-icon {
+    display: none;
+  }
+
+  .grid-1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .alter-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 1920px) {
+  html {
+    font-size: 65%;
+  }
+
+  .grid-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .alter-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 70%;
+  }
+
+  .nav, .main {
+    transform: translateX(-7.2rem);
+  }
+
+  .sidebar, .blackhead {
+    display: block;
+    width: 7.2rem;
+  }
+  .sidebar button, .sidebar a, .sidebar span, .sidebar .get_premium, .blackhead button, .blackhead a, .blackhead span, .blackhead .get_premium {
+    display: none;
+  }
+  .sidebar img, .blackhead img {
+    display: block;
+  }
+
+  .grid-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 76.8rem) {
+  html {
+    font-size: 55%;
+  }
+
+  .sidebar {
+    display: block;
+  }
+
+  .alter-icon {
+    display: block;
+  }
+
+  .grid-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 40rem) {
+  html {
+    font-size: 40%;
+  }
+
+  .sidebar {
+    display: block;
+  }
+
+  .alter-icon {
+    display: block;
+  }
+
+  .grid-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .addvideo {
+    display: none;
+  }
+
+  .noti_btn {
+    display: none;
+  }
+
+  .account {
+    right: 1rem;
+  }
+
+  .nav .searchbox input {
+    transform: translateX(-5rem);
+    width: 20rem;
+  }
+  .nav .searchbox img {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
